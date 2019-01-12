@@ -8,7 +8,7 @@ face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
 skip = 0
 face_data = []
 face_section = 0
-path = '.\data'
+path = './data/'
 
 file_name = input("Enter the name: ")
 
